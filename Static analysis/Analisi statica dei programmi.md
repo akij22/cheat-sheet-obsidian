@@ -4,6 +4,7 @@
 * **Cosa è❓** --> Analisi dei programmi senza eseguirli
 * **Motivi dello studio❓** --> CrowdStrike, Faulty Update, Intel Pentium...
 
+******
 ### Manual inspection
 * Controllo manuale del codice
 * Non realizzabile, perché:
