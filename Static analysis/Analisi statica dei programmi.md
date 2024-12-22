@@ -60,7 +60,7 @@ Utilizzo di intervalli in cui "comprendere le casistiche"
 * Perdita di precisione, ma l'astrazione rispetta il programma concreto = **i valori concreti sono contenuti nell'astrazione**
 
 ##### Galois connection
-![Galois|500x300](https://i.sstatic.net/QtA6Q.png)
+![Galois|300x200](https://i.sstatic.net/QtA6Q.png)
 
 # Sitografia
 [Link 1 - presentazione](https://plmw2014.inria.fr/talks/dillig-plmw14.pdf)
