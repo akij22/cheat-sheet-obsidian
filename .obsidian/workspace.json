@@ -35,8 +35,7 @@
               "title": "README"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -175,8 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,10 +188,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3a3340f31360fa02",
+  "active": "65addc1340849532",
   "lastOpenFiles": [
-    "Static analysis/Analisi statica dei programmi.md",
     "README.md",
+    "Static analysis/Analisi statica dei programmi.md",
     "2024-12-20.md",
     "Welcome.md",
     "Static analysis"
