@@ -24,11 +24,11 @@
 ### Quindi qual è l'obiettivo⁉️
 **Certificare** che un programma è safe, ossia certificare che ==tutte le le esecuzioni del programma sono sicure==
 
-
+******
 ### Teorema di Rice 👨‍🏫
 >Non esiste un programma in grado di determinare se un programma *P* termina o meno
 
-
+******
 ### La base - Interpretazione astratta
 
 #### Cos'è?
