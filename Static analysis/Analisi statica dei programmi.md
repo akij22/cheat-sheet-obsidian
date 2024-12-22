@@ -29,7 +29,7 @@
 >Non esiste un programma in grado di determinare se un programma *P* termina o meno
 
 ******
-### La base - Interpretazione astratta
+### La base - Interpretazione astratta 🔭
 
 #### Cos'è?
 * Framework matematico utilizzato per fare analisi statica dei programmi
