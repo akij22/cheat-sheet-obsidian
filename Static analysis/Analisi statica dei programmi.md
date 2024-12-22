@@ -1,7 +1,7 @@
 
 # Analisi statica
 
-* **Cosa è❓** --> Analisi dei programmi senza eseguirli
+* **Cos'è❓** --> Analisi dei programmi senza eseguirli
 * **Motivi dello studio❓** --> CrowdStrike, Faulty Update, Intel Pentium...
 
 ******
@@ -42,3 +42,8 @@
 #### Casistiche negative (*qualcosa è andato storto...*)
 * Anche se un programma è safe, la sua over-approximation potrebbe dire che non è del tutto safe (**false positive, falso positivo**)
 * La over-approximation non comprende tutte le casistiche per un determinato programma (**Unsound abstraction**)
+
+
+
+### Sitografia
+[Link 1 - presentazione](https://plmw2014.inria.fr/talks/dillig-plmw14.pdf)
