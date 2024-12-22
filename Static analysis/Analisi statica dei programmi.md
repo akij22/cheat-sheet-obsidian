@@ -48,6 +48,7 @@
 #### E quindi, il vantaggio❓
 Se l'interpretazione astratta determina che il programma è sicuro, allora al 100% (anche matematicamente) lo è
 
+******
 ### Domini - tecniche diverse
 
 #### Dominio dei segni
