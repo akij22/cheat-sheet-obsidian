@@ -1,5 +1,5 @@
 
-# Analisi statica
+# Analisi statica...
 
 * **Cos'è❓** --> Analisi dei programmi senza eseguirli
 * **Motivi dello studio❓** --> CrowdStrike, Faulty Update, Intel Pentium...
