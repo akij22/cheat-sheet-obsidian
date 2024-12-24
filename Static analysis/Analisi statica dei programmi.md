@@ -1,8 +1,17 @@
 
-# Analisi statica!
+# Analisi statica
 
 * **Cos'è❓** --> Analisi dei programmi senza eseguirli
 * **Motivi dello studio❓** --> CrowdStrike, Faulty Update, Intel Pentium...
+
+#### Caratteristiche
+1. Non necessita di eseguire il programma
+2. Performato sul codice sorgente (source-code)
+	1. Non è necessario limitarsi all'analisi di un singolo input, come avviene per i test
+3. Utile in:
+	1. Compiler optimization
+	2. Ricerca di vulnerabilità di sicurezza
+	3. Program analysis
 
 ******
 ### Manual inspection
@@ -23,6 +32,7 @@
 
 ### Quindi qual è l'obiettivo⁉️
 **Certificare** che un programma è safe, ossia certificare che ==tutte le le esecuzioni del programma sono sicure==
+* Vogliamo poter rispondere alla domanda: *"Il programma è safe oppure no?"*
 
 ******
 ### Teorema di Rice 👨‍🏫
@@ -35,11 +45,16 @@
 * Framework matematico utilizzato per fare analisi statica dei programmi
 * L'interpretazione astratta si basa su strutture algebriche
 
-#### Idea
+#### Idea (over approximation)
 * Osservare una versione approssimata / *astratta* del programma (**over-approximation**)
 * Se si riesce a provare che la versione astratta è safe, allora anche il programma (ossia tutte le sue possibili esecuzioni) lo sono
+* E' necessario trovare un'efficiente approssimazione / algoritmo per dare la risposta corretta in più casistiche possibili
 
 ![over-approximation](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-4vLFGOhFqk18X1llIAnT03h8AAqYhq7eKyMPtouZvs3wHlLv4U09cC7OOM2zitG7Dag&usqp=CAU)
+
+
+#### Quando un algoritmo è definito *sound* (valido)?
+Un algoritmo è definito **sound** 
 
 #### Casistiche negative (*qualcosa è andato storto...*)
 * Anche se un programma è safe, la sua over-approximation potrebbe dire che non è del tutto safe (**false positive, falso positivo**)
