@@ -52,7 +52,7 @@
 
 ![over-approximation](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-4vLFGOhFqk18X1llIAnT03h8AAqYhq7eKyMPtouZvs3wHlLv4U09cC7OOM2zitG7Dag&usqp=CAU)
 
-
+******
 #### Quando un algoritmo è definito *sound* (valido)?
 Un algoritmo è definito **sound** se, ogni volta che afferma che un programma è sicuro, il programma lo è effettivamente
 * Non genera **falsi negativi** --> riconosce tutti gli eventuali errori
