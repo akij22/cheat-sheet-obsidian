@@ -54,17 +54,25 @@
 
 
 #### Quando un algoritmo è definito *sound* (valido)?
-Un algoritmo è definito **sound** 
+Un algoritmo è definito **sound** se, ogni volta che afferma che un programma è sicuro, il programma lo è effettivamente
+* Non genera **falsi negativi** --> riconosce tutti gli eventuali errori
+* Può generare **falsi positivi** (segnalare problemi che non ci sono)
 
-#### Casistiche negative (*qualcosa è andato storto...*)
-* Anche se un programma è safe, la sua over-approximation potrebbe dire che non è del tutto safe (**false positive, falso positivo**)
-* La over-approximation non comprende tutte le casistiche per un determinato programma (**Unsound abstraction**)
+
+#### Quando un algoritmo è definito *complete* (completo)?
+Un algoritmo è definito **completo** se un programma è sicuro (rispetto a certi errori) e tale algoritmo lo riconosce lo segnala come *safe*.
+* Non genera falsi positivi
+* Può generare falsi negativi (non rilevare tutti gli errori presenti)
+
+
+#### Unsound abstraction
+* La over-approximation di un determinato programma può non comprendere tutte le casistiche per un determinato programma *P*
 
 #### E quindi, il vantaggio❓
 Se l'interpretazione astratta determina che il programma è sicuro, allora al 100% (anche matematicamente) lo è
 
 ******
-### Domini - tecniche diverse
+### Abstract interpretation - tecniche sui domini
 
 #### Dominio dei segni
 * Il dominio più elementare, la base dell'astrazione
