@@ -53,19 +53,19 @@
 ![over-approximation](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-4vLFGOhFqk18X1llIAnT03h8AAqYhq7eKyMPtouZvs3wHlLv4U09cC7OOM2zitG7Dag&usqp=CAU)
 
 ******
-#### Quando un algoritmo è definito *sound* (valido)?
+#### Quando un algoritmo è definito *sound* (valido)? ✅
 Un algoritmo è definito **sound** se, ogni volta che afferma che un programma è sicuro, il programma lo è effettivamente
 * Non genera **falsi negativi** --> riconosce tutti gli eventuali errori
 * Può generare **falsi positivi** (segnalare problemi che non ci sono)
 
 
-#### Quando un algoritmo è definito *complete* (completo)?
+#### Quando un algoritmo è definito completo? 💯
 Un algoritmo è definito **completo** se un programma è sicuro (rispetto a certi errori) e tale algoritmo lo riconosce lo segnala come *safe*.
 * Non genera falsi positivi
 * Può generare falsi negativi (non rilevare tutti gli errori presenti)
 
 
-#### Unsound abstraction
+#### Unsound abstraction ❌
 * La over-approximation di un determinato programma può non comprendere tutte le casistiche per un determinato programma *P*
 
 #### E quindi, il vantaggio❓
@@ -74,11 +74,11 @@ Se l'interpretazione astratta determina che il programma è sicuro, allora al 10
 ******
 ### Abstract interpretation - tecniche sui domini
 
-#### Dominio dei segni
+#### Dominio dei segni ➕
 * Il dominio più elementare, la base dell'astrazione
 * Scopo didattico, data la **poca precisione**
 
-#### Dominio degli intervalli
+#### Dominio degli intervalli 
 Utilizzo di intervalli in cui "comprendere le casistiche"
 * Perdita di precisione, ma l'astrazione rispetta il programma concreto = **i valori concreti sono contenuti nell'astrazione**
 
