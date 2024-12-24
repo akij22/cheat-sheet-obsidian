@@ -1,11 +1,13 @@
 
 # Analisi statica
 
+#### Breve introduzione...
+
 * **Cos'è❓** --> Analisi dei programmi senza eseguirli
 * **Motivi dello studio❓** --> CrowdStrike, Faulty Update, Intel Pentium...
 
 #### Caratteristiche
-1. Non necessita di eseguire il programma
+1. Non necessita di eseguire il programma (a differenza della dynamic analysis)
 2. Performato sul codice sorgente (source-code)
 	1. Non è necessario limitarsi all'analisi di un singolo input, come avviene per i test
 3. Utile in:
@@ -74,17 +76,23 @@ Se l'interpretazione astratta determina che il programma è sicuro, allora al 10
 ******
 ### Abstract interpretation - tecniche sui domini
 
-#### Dominio dei segni ➕
+#### Dominio dei segni (TBC) ➕
 * Il dominio più elementare, la base dell'astrazione
 * Scopo didattico, data la **poca precisione**
 
-#### Dominio degli intervalli 
+#### Dominio degli intervalli (TBC)
 Utilizzo di intervalli in cui "comprendere le casistiche"
 * Perdita di precisione, ma l'astrazione rispetta il programma concreto = **i valori concreti sono contenuti nell'astrazione**
 
 ##### Galois connection
 ![Galois|500x250](https://i.sstatic.net/QtA6Q.png)
 
+
+
+
+
 # Sitografia
 [Link 1 - presentazione](https://plmw2014.inria.fr/talks/dillig-plmw14.pdf)
 [Link2](https://www.ida.liu.se/~TDDC90/literature/slides/TDDC90_static_I_handout.pdf)
+#### About Lisa
+* [Lisa - GitHub](https://github.com/lisa-analyzer/lisa)
