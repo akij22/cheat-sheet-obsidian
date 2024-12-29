@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "README"
             }
+          },
+          {
+            "id": "39df6b9780618c31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sync-Github/Sync with Github - step by step.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sync with Github - step by step"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,10 +188,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "65addc1340849532",
+  "active": "6092d9dc6d905b19",
   "lastOpenFiles": [
-    "Static analysis/Analisi statica dei programmi.md",
     "README.md",
+    "Sync-Github/Sync with Github - step by step.md",
+    "Sync-Github",
+    "Static analysis/Analisi statica dei programmi.md",
     "akij22/README.md",
     "Readme/README.md",
     "Readme",
