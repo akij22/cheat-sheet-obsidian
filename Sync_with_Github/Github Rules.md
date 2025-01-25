@@ -7,6 +7,7 @@
 
 ### Commit, push e pull
 * Commit: 'git commit -m "commento del commit"'
+* non funzia
 
 ### .gitignore
 
