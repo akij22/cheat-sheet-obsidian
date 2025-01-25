@@ -3,11 +3,13 @@
 
 
 ### Init della repository
-'git init'
+`git init`
+
 
 ### Commit, push e pull
-* Commit: 'git commit -m "commento del commit"'
-* non funzia
+* Commit: `git commit -m <commento del commit>`
+* Push: `git push origin main`
+* Pull: 
 
 ### .gitignore
 
