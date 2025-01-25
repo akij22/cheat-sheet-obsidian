@@ -5,9 +5,17 @@
 ### Init della repository
 `git init`
 
+### Aggiunta di file nella staging area
+* `git add <file_name>`
+* Aggiunta di tutti i file: `git add .`
 
-### Verifica dello stato dello repo remota
-`git remote -v`
+### Aggiunta di una repo remota
+`git remote add origin <url>`
+* `origin`: nome della repo remota
+
+### Verifica
+* Verifica dello stato della repo remota: `git remote -v`
+* Verifica lo stato dei file nella repo: `git status`
 
 
 ### Commit, push e pull
