@@ -7,17 +7,18 @@
 
 
 ### Commit, push e pull
-* Commit: `git commit -m <commento del commit>`
+* Commit: `git commit -m <comments>`
 * Push: `git push origin main`
-* Pull: 
+* Pull: `git pull <options>`
 
 ### .gitignore
+Utilizzato per specificare repo / file da non includere nel commit e push
 
 #### Rimozione di una repository
-* Scrivi il nome della repository + "/"
+* `<file_repo>/`
 #### Rimozione di tutti i file con estensione specifica
-* *.estensione
+* `*.<extension>`
 
 
 ### Rimozione di un file / cartella dal version control
-* git rm -r --cached nome_file / nome_cartella
+* `git rm -r --cached <file_name> / <repo_name>`
