@@ -26,3 +26,9 @@ Utilizzato per specificare repo / file da non includere nel commit e push
 
 ### Rimozione di un file / cartella dal version control
 * `git rm -r --cached <file_name> / <repo_name>`
+
+
+### Git Merge
+Utilizzato per combinare due branch
+* **Merge fast-forward**: si hanno due HEAD (origine e destinazione), che "puntano" a modifiche diverse. Mediante tale comando si "allineano" le due history. ![Merge fast-forward](Merge fast-forward)
+* **Three-way merge**: si combinano le history di due branch divergenti
