@@ -6,6 +6,10 @@
 `git init`
 
 
+### Verifica dello stato dello repo remota
+`git remote -v`
+
+
 ### Commit, push e pull
 * Commit: `git commit -m <comments>`
 * Push: `git push origin main`
