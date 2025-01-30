@@ -10,6 +10,7 @@ Lo scopo di tali appunti è quello di creare una guida utile da seguire per l'ap
 * [Understat - documentation](https://readthedocs.org/projects/understat/downloads/pdf/latest/)
 * ```https://api.sofascore.com/api/v1/player/{playerID}/unique-tournament/{tournamentID}/season/{seasonID}/statistics/overall```
 * [Scraper FC / Sofascore - API documentation](https://scraperfc.readthedocs.io/en/stable/sofascore.html?utm_source=chatgpt.com)
+* [Understat - documentation](https://readthedocs.org/projects/understat/downloads/pdf/latest/)
 * Pandas - elaborazione dei dati [TO DO]
 
 #### Step successivi - estrazione dati
