@@ -35,7 +35,7 @@ Lo scopo di tali appunti è quello di creare una guida utile da seguire per l'ap
 
 
 ## TODO
-1. Visualizzazione dati
+1. __Visualizzazione dati__
 	1. Come posso migliorare la visualizzazione dei dati?
 		1. Possibile necessità di utilizzare grafici per poterli visualizzare meglio
 		2. Utilizzo di Pandas per convertire i dati in data frame e visualizzarli meglio
@@ -50,4 +50,3 @@ Lo scopo di tali appunti è quello di creare una guida utile da seguire per l'ap
 	1. Come integro API e database?
 	2. Che scopo dovrà avere il mio db?
 	3. Che struttura avrà il mio db? (Entità, relazioni tra entità)
-4. 
