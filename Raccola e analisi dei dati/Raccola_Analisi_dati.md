@@ -4,7 +4,7 @@ Questi appunti si concentrano sugli steps - TO DO list utilizzate per realizzare
 Lo scopo di tali appunti è quello di creare una guida utile da seguire per l'apprendimento della logica e delle tecnologie che si andranno ad utilizzare.
 
 
-### Estrazione dati
+### Estrazione dati - Fonti
 
 #### Statsbomb
 * [Statistiche generali da StatsBomb](https://github.com/statsbomb/open-data)
@@ -32,3 +32,22 @@ Lo scopo di tali appunti è quello di creare una guida utile da seguire per l'ap
 * Generazione grafici
 * Generazione tabelle
 * Pianificazione dell'aggiornamento dati
+
+
+## TODO
+1. Visualizzazione dati
+	1. Come posso migliorare la visualizzazione dei dati?
+		1. Possibile necessità di utilizzare grafici per poterli visualizzare meglio
+		2. Utilizzo di Pandas per convertire i dati in data frame e visualizzarli meglio
+		3. Utilizzo di **Jupyter Notebook** (i DataFrame vengono visualizzati in modo chiaro)
+		4. Utilizzo di dati salvati in CSV
+			1. Memorizzare i dati in file CSV mediante il relativo metodo di Pandas
+	2. Come posso manipolare / filtrare i dati?
+	3. Devo per forza eseguire web scraping (almeno in questa parte iniziale dello sviluppo)? 
+2. Chiamate API
+	1. Le API forniscono tutti i metodi / dati necessari?
+3. Integrazione con web app
+	1. Come integro API e database?
+	2. Che scopo dovrà avere il mio db?
+	3. Che struttura avrà il mio db? (Entità, relazioni tra entità)
+4. 
