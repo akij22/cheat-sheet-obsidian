@@ -12,6 +12,7 @@ Lo scopo di tali appunti è quello di creare una guida utile da seguire per l'ap
 
 #### Understat
 * [Understat - documentation](https://readthedocs.org/projects/understat/downloads/pdf/latest/)
+* [Github repo](https://github.com/amosbastian/understat)
 
 
 #### Scraper FC (include Sofascore e Understats)
@@ -20,6 +21,9 @@ Lo scopo di tali appunti è quello di creare una guida utile da seguire per l'ap
 
 **Sofascore** --> utile per elaborare dati in tempo reale
 **Understat** --> utile per elaborare statistiche precise (XG, passaggi, ...)
+#### Scraping - FBref
+* Possibile scraping per estrarre dati di singoli giocatori (xG, xAG, goal, assist, ...)
+
 
 
 
@@ -35,7 +39,7 @@ Lo scopo di tali appunti è quello di creare una guida utile da seguire per l'ap
 
 
 ## TODO
-1. ____Visualizzazione dati___
+1. Visualizzazione dati
 	1. Come posso migliorare la visualizzazione dei dati?
 		1. Possibile necessità di utilizzare grafici per poterli visualizzare meglio
 		2. Utilizzo di Pandas per convertire i dati in data frame e visualizzarli meglio
