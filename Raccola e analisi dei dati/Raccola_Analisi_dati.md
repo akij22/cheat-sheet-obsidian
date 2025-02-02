@@ -27,10 +27,9 @@ Lo scopo di tali appunti è quello di creare una guida utile da seguire per l'ap
 
 
 
-#### Elaborazione dati con Pandas
-* Pandas - elaborazione dei dati
+#### Elaborazione dati con Pandas - [documentazione](https://pandas.pydata.org/docs/user_guide/index.html#user-guide)
+	* Pandas - elaborazione dei dati
 	* Filtraggio per key (xG, ...)
-	* Problema: da risolvere la visualizzazione dei dati e trovare le key per filtrare con Pandas
 
 ### Step successivi - estrazione dati
 * Generazione grafici
@@ -54,3 +53,4 @@ Lo scopo di tali appunti è quello di creare una guida utile da seguire per l'ap
 	1. Come integro API e database?
 	2. Che scopo dovrà avere il mio db?
 	3. Che struttura avrà il mio db? (Entità, relazioni tra entità)
+4. Visualizzazione mediante grafici (**Matplotlib / Seaborn**) / **Scikit-learn** (da capire effettivo utilizzo)
