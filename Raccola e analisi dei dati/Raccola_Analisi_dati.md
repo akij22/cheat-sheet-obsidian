@@ -39,10 +39,10 @@ Lo scopo di tali appunti è quello di creare una guida utile da seguire per l'ap
 
 ## TODO
 1. Visualizzazione dati
-	1. Come posso migliorare la visualizzazione dei dati?
+	1. [X] Come posso migliorare la visualizzazione dei dati?
 		1. Possibile necessità di utilizzare grafici per poterli visualizzare meglio
-		2. Utilizzo di Pandas per convertire i dati in data frame e visualizzarli meglio
-		3. Utilizzo di **Jupyter Notebook** (i DataFrame vengono visualizzati in modo chiaro)
+		2. [X] Utilizzo di Pandas per convertire i dati in data frame e visualizzarli meglio
+		3. [x] Utilizzo di **Jupyter Notebook** (i DataFrame vengono visualizzati in modo chiaro)
 		4. Utilizzo di dati salvati in CSV
 			1. Memorizzare i dati in file CSV mediante il relativo metodo di Pandas
 	2. Come posso manipolare / filtrare i dati?
@@ -53,4 +53,17 @@ Lo scopo di tali appunti è quello di creare una guida utile da seguire per l'ap
 	1. Come integro API e database?
 	2. Che scopo dovrà avere il mio db?
 	3. Che struttura avrà il mio db? (Entità, relazioni tra entità)
-4. Visualizzazione mediante grafici (**Matplotlib / Seaborn**) / **Scikit-learn** (da capire effettivo utilizzo)
+4. Visualizzazione mediante grafici (**Matplotlib / Seaborn**) / **Scikit-learn** (machine-learning) - step complesso
+
+
+### Todo 06/02/2025 - other days...
+1. Dato un giocatore in input, restituire:
+	1. Squadra attuale in cui gioca
+	2. Storico delle squadre in cui ha giocato (con rispettive annate)
+	3. Numero di partite giocate
+	4. Numero di minuti totali giocati
+	5. Percentuale di minutaggio (quanti minuti in campo rispetto al totale)
+	6. Gol, assist, tiri totali, tiri totali in porta, xG, xA, Sh90, xG90, xA90
+	7. Percentuale di realizzazione
+		1. Utilizza numero di tiri totali e i gol fatti [da approfondire]
+	8. Possibile valutazione finale (da capire come calcolare / dove estrapolarla)
