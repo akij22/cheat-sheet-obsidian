@@ -43,7 +43,7 @@ Lo scopo di tali appunti è quello di creare una guida utile da seguire per l'ap
 		1. Possibile necessità di utilizzare grafici per poterli visualizzare meglio
 		2. [X] Utilizzo di Pandas per convertire i dati in data frame e visualizzarli meglio
 		3. [x] Utilizzo di **Jupyter Notebook** (i DataFrame vengono visualizzati in modo chiaro)
-		4. Utilizzo di dati salvati in CSV
+		4. Utilizzo di dati salvati in CSV (**non utilizzata al momento**)
 			1. Memorizzare i dati in file CSV mediante il relativo metodo di Pandas
 	2. Come posso manipolare / filtrare i dati?
 	3. Devo per forza eseguire web scraping (almeno in questa parte iniziale dello sviluppo)? 
