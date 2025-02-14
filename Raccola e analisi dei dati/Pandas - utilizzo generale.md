@@ -12,7 +12,8 @@
 ### Accesso alle righe / colonne mediante `.loc`
 
 ##### Accesso ad una riga
-`df.loc[4]`, dove `4` indica l'indice della riga
+`df.loc['colonna1']`, dove `colonna1` indica il nome della riga
+
 
 ### Accesso alle righe / colonne mediante `.iloc` (posizione numerica)
 
@@ -22,8 +23,8 @@
 
 ##### Accesso ad una cella
 `df.iloc[0, 2]`, dove:
-* `0` rappresenta la riga
-* `2` rappresenta la colonna
+* `0` rappresenta la **riga**
+* `2` rappresenta la **colonna**
 
 
 ### Selezione di intervalli (mediante `.iloc`)
@@ -36,4 +37,4 @@
 * Mediante `.loc` --> `df.loc[df["colonna1"] == "colonna 1"]`
 	* Restituisce le righe che contengono `colonna 1` rispettivamente nella `colonna1`
 * Mediante `.query` --> `df.query("colonna1" == colonna1")`
-	* Utilizzando **variabili** --> `df.query("colonna1" == @variable")`
+	* Utilizzando **variabili --> `df.query("colonna1" == @variable")`

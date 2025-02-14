@@ -58,12 +58,16 @@ Lo scopo di tali appunti è quello di creare una guida utile da seguire per l'ap
 
 ### Todo 06/02/2025 - other days...
 1. Dato un giocatore in input, restituire:
-	1. Squadra attuale in cui gioca
+	1. [X] Squadra attuale in cui gioca
 	2. Storico delle squadre in cui ha giocato (con rispettive annate)
-	3. Numero di partite giocate
-	4. Numero di minuti totali giocati
-	5. Percentuale di minutaggio (quanti minuti in campo rispetto al totale)
+	3. [X] Numero di partite giocate
+	4. [X] Numero di minuti totali giocati
+	5. [X] Percentuale di minutaggio (quanti minuti in campo rispetto al totale)
 	6. Gol, assist, tiri totali, tiri totali in porta, xG, xA, Sh90, xG90, xA90
 	7. Percentuale di realizzazione
 		1. Utilizza numero di tiri totali e i gol fatti [da approfondire]
 	8. Possibile valutazione finale (da capire come calcolare / dove estrapolarla)
+
+
+
+### [Scikit-learn](https://www.youtube.com/watch?v=GsfXAzfvJVM)
