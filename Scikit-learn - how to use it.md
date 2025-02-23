@@ -1,4 +1,6 @@
 
+
+###### [Video di riferimento](https://www.youtube.com/watch?v=0B5eIE_1vpU)
 ## Introduzione
 Abbiamo dei dati, i quali vengono forniti ad un modello per realizzare delle **predictions**
 
