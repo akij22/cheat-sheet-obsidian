@@ -1,4 +1,7 @@
 
+#### Utilizzo di Pandas - link file
+[[Pandas - utilizzo generale]]
+
 # Appunti sulla raccolta e analisi dei dati
 Questi appunti si concentrano sugli steps - TO DO list utilizzate per realizzare la raccolta, l'analisi e parte dell'elaborazione di dati utilizzati per la realizzazione di un software di analisi dei giocatori per il fantacalcio.
 Lo scopo di tali appunti è quello di creare una guida utile da seguire per l'apprendimento della logica e delle tecnologie che si andranno ad utilizzare.
@@ -67,6 +70,8 @@ Lo scopo di tali appunti è quello di creare una guida utile da seguire per l'ap
 	7. Percentuale di realizzazione
 		1. Utilizza numero di tiri totali e i gol fatti [da approfondire]
 	8. Possibile valutazione finale (da capire come calcolare / dove estrapolarla)
+	9. [X] Visualizzazione shots map mediante grafici di Seaborn
+		1. [Possibile necessità di mostrare un football pitch](https://www.kaggle.com/code/josegabrielgonzalez/understat-series-heatmaps/notebook#Plotting-heatmaps)
 
 
 
