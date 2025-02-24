@@ -59,7 +59,7 @@ Ad esempio, all'interno di una pipeline, è possibile definire **una prima fase 
 
 ### Sintassi di una pipeline nel codice
 `pipe = Pipeline([` <br />
-	<emsp>`("scale", StandardScaler()),` <br />
+	`("scale", StandardScaler()),` <br />
 	`("model", KneighborsRegressor())` <br />
 
 `])`
