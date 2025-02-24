@@ -6,7 +6,7 @@ Abbiamo dei dati, i quali vengono forniti ad un modello per realizzare delle **p
 
 Dati divisi in:
 * X --> tutto ciò che viene utilizzato per realizzare la prediction
-* Y --> la prediction che si vuole ottenere
+* y --> la prediction che si vuole ottenere
 
 ## Scopo del model
 Analizzare X, imparare il pattern e capire **come prevedere Y partendo da X.**
