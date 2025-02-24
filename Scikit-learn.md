@@ -58,9 +58,9 @@ Mediante la pipeline, è possibile eseguire una sequenza di operazioni che defin
 Ad esempio, all'interno di una pipeline, è possibile definire **una prima fase di standardizzazione dei dati** (mediante **StandardScaler object**) ed una **successiva fase di di predictions** (mediante un model)
 
 ### Sintassi di una pipeline nel codice
-`pipe = Pipeline([`
-	`("scale", StandardScaler()),`
-	`("model", KneighborsRegressor())`
+`pipe = Pipeline([` <br />
+	`("scale", StandardScaler()),` <br />
+	`("model", KneighborsRegressor())` <br />
 
 `])`
 
