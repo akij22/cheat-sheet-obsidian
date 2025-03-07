@@ -27,6 +27,11 @@ Ci sono **diversi model** che è possibile utilizzare in Scikit-learn
 ## .fit()
 Serve per addestrare il model sui dati di training
 
+* Il modello viene addestrato (.fit()) utilizzando sia X che y
+	* X contiene le caratteristiche, le informazioni in input che il modello utilizza per fare previsioni
+	* y contiene i valori target che il modello cerca di prevedere
+* Calcolo dell'errore --> il modello calcola "quanto ha sbagliato", confrontando le sue predictions con i valori reali di y, e cerca di ridurre l'errore sempre di più
+
 ## .predict()
 Serve per ottenere le predictions sui dati di test
 
@@ -42,8 +47,7 @@ Prima di inserire X all'interno del model per eseguire la predictions, è necess
 
 ### Obiettivo di StandardScaler?
 Ridurre il rumore, rendendo i dati più omogenei tra loro, migliorando stabilità e precisione
-
-Esempio indesiderato:
+* Quindi, **riduce l'impatto degli outliers**, ossia di quei valori che hanno "comportamenti" / valori anomali rispetto a tutto il set (ad esempio, valori troppo grandi / piccoli rispetto all'insieme)
 
 
 
@@ -57,6 +61,11 @@ Mediante la pipeline, è possibile eseguire una sequenza di operazioni che defin
 
 Ad esempio, all'interno di una pipeline, è possibile definire **una prima fase di standardizzazione dei dati** (mediante **StandardScaler object**) ed una **successiva fase di di predictions** (mediante un model)
 
+
+#### pipe.get_params()
+Restituisce tutti i parametri / setting per quella specifica istanza di pipeline
+
+
 ### Sintassi di una pipeline nel codice
 `pipe = Pipeline([` <br />
 	`("scale", StandardScaler()),` <br />
@@ -65,3 +74,28 @@ Ad esempio, all'interno di una pipeline, è possibile definire **una prima fase 
 `])`
 
 `pipe.fit(X, Y)`
+
+
+## GridSearchCV (cross-validation)
+E' il "vero e proprio" model che si andrà ad utilizzare
+
+#### Cross-validation: in cosa consiste?
+Metodo che divide i dati di addestramento in più parti.
+
+Ad esempio, facciamo caso che i dati vengano divisi in **k** "pieghe":
+* il modello viene addestrato su **k - 1** pieghe
+* il modello viene testato sulla **k-esima** piega
+* tale processo è ripetuto per ogni possibile combinazione, cambiando ogni volta la "piega" utilizzata per il test
+
+Per ogni combinazione, viene calcolata la performance media e, al termine, verrà selezionata la combinazione con la media più alta
+
+#### Perche' effettuare tante combinazioni?
+I dati presenti in ogni piega ad ogni combinazione sono diversi (scelti in modo randomico): alcuni dati in una piega potrebbero avere qualità minore rispetto ad altri, oppure essere addestrati in modo migliore solo su una parte di dati
+
+
+Prende come parametri:
+1. estimator --> 
+2. parameter grid (param_grid) --> si specificano il numero di neighbors da utilizzare
+	1. E' possibile indicare più numeri per il numero di neighbors
+3. cv --> cross validation steps
+
