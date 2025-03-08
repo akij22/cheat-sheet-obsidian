@@ -94,8 +94,8 @@ I dati presenti in ogni piega ad ogni combinazione sono diversi (scelti in modo 
 
 
 Prende come parametri:
-1. estimator --> 
-2. parameter grid (param_grid) --> si specificano il numero di neighbors da utilizzare
+1. **estimator** --> un oggetto che possiede le API .fit() e .predict(), ossia la nostra Pipeline
+2. **parameter grid** (param_grid) --> si specificano il numero di neighbors da utilizzare
 	1. E' possibile indicare più numeri per il numero di neighbors
-3. cv --> cross validation steps
+3. **cv** --> numero di cross validation steps da eseguire
 
