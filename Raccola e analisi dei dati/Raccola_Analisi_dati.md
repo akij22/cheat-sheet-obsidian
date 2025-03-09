@@ -40,6 +40,13 @@ Lo scopo di tali appunti è quello di creare una guida utile da seguire per l'ap
 * Pianificazione dell'aggiornamento dati
 
 
+### Pulizia dati
+* Video riferimento: [Scikit-learn - conversione e pulizia dati](https://www.youtube.com/watch?v=GsfXAzfvJVM)
+
+1. Necessario convertire molti dati (anche di tipo str) in bool, ad esempio, shotType deve essere rimosso, al suo posto
+	1. Si inseriscono tante colonne di tipo bool, che indicano il tipo di tiro (RighFoot, LeftFoot, Head, ...)
+2. Feature per "aiutare" il modello: ho aggiunto la shot_distance
+
 ## TODO
 1. Visualizzazione dati
 	1. [X] Come posso migliorare la visualizzazione dei dati?
@@ -74,5 +81,3 @@ Lo scopo di tali appunti è quello di creare una guida utile da seguire per l'ap
 		1. [Possibile necessità di mostrare un football pitch](https://www.kaggle.com/code/josegabrielgonzalez/understat-series-heatmaps/notebook#Plotting-heatmaps)
 
 
-
-### [Scikit-learn](https://www.youtube.com/watch?v=GsfXAzfvJVM)
