@@ -1,5 +1,6 @@
 *.log
 .obsidian/
-.Raccolta_e_analisi_dei_dati/
+.Raccolta_e_analisi_dei_dati/Pandas - utilizzo generale.md
+.Raccolta_e_analisi_dei_dati/Raccola_Analisi_dati.md
 .Sync_with_Github/
 Scikit-learn.md
