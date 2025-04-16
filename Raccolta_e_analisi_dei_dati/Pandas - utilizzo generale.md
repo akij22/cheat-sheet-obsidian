@@ -3,7 +3,6 @@
 ## Accesso alle **colonne** mediante notazione chiave
 ##### Accesso ad una colonna
 `df["colonna1"]`
-
 ##### Accesso a più colonne
 `df[[colonna1, colonna2]]`
 
