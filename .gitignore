@@ -1,4 +1,5 @@
 *.log
 .obsidian/
-.Raccola_e_analisi_dei_dati/
+.Raccolta_e_analisi_dei_dati/
+.Scikit-learn.md
 
