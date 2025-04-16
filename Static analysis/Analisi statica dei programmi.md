@@ -92,7 +92,7 @@ Utilizzo di intervalli in cui "comprendere le casistiche"
 
 
 # Sitografia
-[Link 1 - presentazione](https://plmw2014.inria.fr/talks/dillig-plmw14.pdf)
-[Link2](https://www.ida.liu.se/~TDDC90/literature/slides/TDDC90_static_I_handout.pdf)
+* [Link 1 - presentazione](https://plmw2014.inria.fr/talks/dillig-plmw14.pdf)
+* [Link2](https://www.ida.liu.se/~TDDC90/literature/slides/TDDC90_static_I_handout.pdf)
 #### About Lisa
 * [Lisa - GitHub](https://github.com/lisa-analyzer/lisa)
