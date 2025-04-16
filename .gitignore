@@ -1,2 +1,5 @@
 *.log
 .obsidian/
+.Raccolta e analisi dei dati/
+.Sync_with_Github/
+Scikit-learn.md
