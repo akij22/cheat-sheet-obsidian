@@ -1,0 +1,7 @@
+*.log
+.obsidian/
+000 Index/
+200 Projects/
+300 Unipr/Programmazione_B/
+.gitignore/
+.DS_Store
